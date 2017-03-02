@@ -1,0 +1,12 @@
+POST http://localhost:3000/user_token
+Content-Type: application/json
+{"auth": {"email": "test@example.com", "password": "password"}}
+#
+
+:token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0ODg1NDIzMjgsInN1YiI6MX0.v0yM42ymNApbvzUUL7QLhdgH298RaynNnebTur_rhrk"
+
+#
+GET http://localhost:3000/posts
+Content-Type: application/json
+Authorization: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0ODg1NDIzMjgsInN1YiI6MX0.v0yM42ymNApbvzUUL7QLhdgH298RaynNnebTur_rhrk"
+#
