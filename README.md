@@ -1,24 +1,10 @@
-# README
+# USAGE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```ruby
+git clone https://github.com/przbadu/token-based-authenticated-api.git api-app
+cd api-app
+rake db:create db:migrate db:seed
+rails s -p 3000
+```
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+> NOTE: check `username` and `password` in `db/seed.rb` file.
