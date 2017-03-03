@@ -8,5 +8,5 @@ Content-Type: application/json
 #
 GET http://localhost:3000/posts
 Content-Type: application/json
-Authorization: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0ODg1NDIzMjgsInN1YiI6MX0.v0yM42ymNApbvzUUL7QLhdgH298RaynNnebTur_rhrk"
+# Authorization: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0ODg1NDIzMjgsInN1YiI6MX0.v0yM42ymNApbvzUUL7QLhdgH298RaynNnebTur_rhrk"
 #
