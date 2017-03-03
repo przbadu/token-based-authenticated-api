@@ -1,12 +1,15 @@
+# get token from server
 POST http://localhost:3000/user_token
 Content-Type: application/json
 {"auth": {"email": "test@example.com", "password": "password"}}
 #
 
-:token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0ODg1NDIzMjgsInN1YiI6MX0.v0yM42ymNApbvzUUL7QLhdgH298RaynNnebTur_rhrk"
-
-#
+# Get the list of posts
 GET http://localhost:3000/posts
 Content-Type: application/json
-# Authorization: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0ODg1NDIzMjgsInN1YiI6MX0.v0yM42ymNApbvzUUL7QLhdgH298RaynNnebTur_rhrk"
-#
+Authorization: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0ODg2MzI0MTYsInN1YiI6MX0.QAhaiO-b2-UF_U0aI875UbZS07FRumZTq5L-UGs3YK4"
+
+# GET current user
+GET http://localhost:3000/users/1
+Content-Type: applicaiton/json
+Authorization: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0ODg2MzI0MTYsInN1YiI6MX0.QAhaiO-b2-UF_U0aI875UbZS07FRumZTq5L-UGs3YK4"
