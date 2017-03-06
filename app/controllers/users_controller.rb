@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  def show
+  def current_user
     render json: current_user
   end
 end

@@ -10,6 +10,6 @@ Content-Type: application/json
 Authorization: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0ODg2MzI0MTYsInN1YiI6MX0.QAhaiO-b2-UF_U0aI875UbZS07FRumZTq5L-UGs3YK4"
 
 # GET current user
-GET http://localhost:3000/users/1
+GET http://localhost:3000/current_user
 Content-Type: applicaiton/json
 Authorization: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0ODg2MzI0MTYsInN1YiI6MX0.QAhaiO-b2-UF_U0aI875UbZS07FRumZTq5L-UGs3YK4"
