@@ -1,15 +1,15 @@
 # get token from server
-POST http://localhost:3000/user_token
+POST http://api-secretcodez.herokuapp.com/user_token
 Content-Type: application/json
 {"auth": {"email": "test@example.com", "password": "password"}}
 #
 
 # Get the list of posts
-GET http://localhost:3000/posts
+GET http://api-secretcodez.herokuapp.com/posts
 Content-Type: application/json
-Authorization: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0ODg2MzI0MTYsInN1YiI6MX0.QAhaiO-b2-UF_U0aI875UbZS07FRumZTq5L-UGs3YK4"
+Authorization: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0ODg4NzkwMDAsInN1YiI6MX0.-r1nCEb3vlll95pFs6PtqygLDAzrlN-6UP2HbLAzGto"
 
 # GET current user
-GET http://localhost:3000/current_user
+GET http://api-secretcodez.herokuapp.com/current_user
 Content-Type: applicaiton/json
-Authorization: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0ODg2MzI0MTYsInN1YiI6MX0.QAhaiO-b2-UF_U0aI875UbZS07FRumZTq5L-UGs3YK4"
+Authorization: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0ODg4NzkwMDAsInN1YiI6MX0.-r1nCEb3vlll95pFs6PtqygLDAzrlN-6UP2HbLAzGto"
