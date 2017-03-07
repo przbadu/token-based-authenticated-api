@@ -1,3 +1,11 @@
 <!DOCTYPE HTML>
-<script src="//cdn.rawgit.com/jpillora/xdomain/0.7.4/dist/xdomain.min.js"
-        master="http://3a278c79.ngrok.io"></script>
+<script src="//cdn.rawgit.com/jpillora/xdomain/0.7.4/dist/xdomain.min.js"></script>
+<script>
+xdomain.masters(
+  {
+    'http://3a278c79.ngrok.io': '/'
+  },
+  {
+    'http://lvh.me:4200': '/'
+  });
+</script>

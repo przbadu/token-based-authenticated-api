@@ -13,3 +13,9 @@ Authorization: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0ODg4Nzkw
 GET http://api-secretcodez.herokuapp.com/current_user
 Content-Type: applicaiton/json
 Authorization: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0ODg4NzkwMDAsInN1YiI6MX0.-r1nCEb3vlll95pFs6PtqygLDAzrlN-6UP2HbLAzGto"
+
+
+# GET current user
+GET http://api-secretcodez.herokuapp.com/users/1
+Content-Type: applicaiton/json
+Authorization: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0ODg4NzkwMDAsInN1YiI6MX0.-r1nCEb3vlll95pFs6PtqygLDAzrlN-6UP2HbLAzGto"
